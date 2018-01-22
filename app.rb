@@ -12,7 +12,7 @@ class App < Sinatra::Base
 		erb :goodbye
 	end
 
-	det '/date' do
+	get '/date' do
 		erb :date
 	end
 
