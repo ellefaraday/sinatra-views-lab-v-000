@@ -4,8 +4,12 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	det '/hello' do
+	get '/hello' do
 		erb :hello
+	end
+
+	get '/goodbye' do
+		erb :goodbye
 	end
 
 
